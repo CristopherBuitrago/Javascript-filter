@@ -1,6 +1,3 @@
-Certainly! Here's an improved version of your README.md with some adjustments for consistency, clarity, and professionalism:
-
-```markdown
 # Javascript Filter - filtro_javascript
 
 👋 Welcome! I'm Cristopher, and this is my JavaScript filter tool. Let's get started! 👾
