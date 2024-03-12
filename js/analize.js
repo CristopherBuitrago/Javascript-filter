@@ -19,7 +19,7 @@ const analizeForm = () => {
     </form>
 
     <div id="results">
-        <h2>Results:</h2>
+        <h2>Results (The guilty person will be mark with color red):</h2>
         <ul id="persons"></ul>
     </div>
     `
@@ -61,6 +61,13 @@ const suspicious = () => {
     similarities.slice(0, 5).forEach(person => {
         const listItem = document.createElement("li");
         listItem.textContent = `${person.name} ${person.similarity.toFixed(2)}%`;
+
+        // Si la similitud es del 100%, cambiamos el color del li a rojo
+        if (person.similarity === 100) {
+            listItem.style.color = "red";
+        }
+
         personsList.appendChild(listItem);
     });
 };
+

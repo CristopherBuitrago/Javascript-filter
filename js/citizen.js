@@ -109,18 +109,17 @@ const addPerson = async () => {
     const phone = document.getElementById("citizenPhoneNumber").value.trim();
 
     // Verificacion de campos vacios
-    if (
-        !name ||
-        !adn ||
-        !adress ||
-        !phone
-    ){
-        alert("Make sure to add valid assignation")
-        return
+    if (!name || !adn || !adress || !phone) {
+        alert("Make sure to add valid assignation");
+        return;
     }
 
+    // Convertimos la secuencia de ADN a número y luego a cadena
+    const adnNumber = parseInt(adn, 10);
+    const adnString = adnNumber.toString();
+
     // Verificar si la secuencia de ADN ya existe en la lista
-    const existingPerson = citizenData.find(person => person.codigo_adn === adn);
+    const existingPerson = citizenData.find(person => person.codigo_adn === adnString);
     if (existingPerson) {
         alert("The entered DNA sequence already exists in the database. Please enter a unique sequence.");
         return;
@@ -132,7 +131,7 @@ const addPerson = async () => {
         nombre_completo: name,
         direccion: adress,
         celular: phone,
-        codigo_adn: Number(adn)
+        codigo_adn: adnString
     };
 
     // Llamamos a la funcion que se encarga de guardar la info en la base de datos

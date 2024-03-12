@@ -145,28 +145,7 @@
       "nombre_completo": "Cristopher Buitrago",
       "direccion": "Cra.18  #34-23",
       "celular": "31039087657",
-      "codigo_adn": 11111111111111110000
-    },
-    {
-      "id": 22,
-      "nombre_completo": "Cristopher Buitrago",
-      "direccion": "Cra.18  #34-23",
-      "celular": "31039087657",
-      "codigo_adn": 1011011010100110100
-    },
-    {
-      "id": 23,
-      "nombre_completo": "Cristopher Buitrago",
-      "direccion": "Cra.18  #34-23",
-      "celular": "31039087657",
-      "codigo_adn": 101101101010011000
-    },
-    {
-      "id": 24,
-      "nombre_completo": "Diego carreño",
-      "direccion": "Cra.18  #34-23",
-      "celular": "31039087657",
-      "codigo_adn": 11111111111111110000
+      "codigo_adn": "11111111111111110000"
     }
   ]
 }
