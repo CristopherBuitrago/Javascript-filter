@@ -23,7 +23,7 @@ const home = () => {
                     </div>
                 </div>
                 <div class="wave">
-                    <img src="img/img2.svg" alt="fondo">
+                    <img src="img/wave.svg" alt="fondo">
                 </div>
             </div>
         </section>

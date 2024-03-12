@@ -9,6 +9,10 @@
     font-family: "Lexend", sans-serif;
 }
 
+html{
+    background-color: #273036;
+}
+
 a{
     cursor: pointer;
 }
@@ -20,6 +24,25 @@ section{
 h2{
     font-size: 1rem;
     font-style: oblique;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-shadow: 0px 0px 20px white;
+}
+
+li{
+    color: white;
+}
+
+label{
+    color: rgb(175, 175, 175);
+    text-shadow: 0px 0px 20px  #b3b1b1;
+}
+
+main{
+    background-color: #273036;
 }
 /*Header*/
 
