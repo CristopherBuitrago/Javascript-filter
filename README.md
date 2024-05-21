@@ -15,6 +15,10 @@ To begin, follow these simple steps after cloning the repository:
    ```bash
    npm start
    ```
+## 🪄 Wants to see the page without database?
+
+This is the link: **https://cristopherbuitrago.github.io/Javascript-filter/**
+   
 
 ## 💀 Encountering Issues?
 
